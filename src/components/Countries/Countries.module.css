@@ -1,0 +1,34 @@
+.section, .list,.spanCountry,.span {
+   display: flex;
+   flex-direction: column;
+}
+.item{
+   display: flex;
+   
+}
+.link{
+   display: flex;
+   text-decoration: none;
+   color: black;
+   
+   
+}
+.link:focus,.link:hover{
+   color: rgb(255, 0, 0);
+}
+.spanCountry{
+width: 220px;
+border: 1px;
+border-color: black;
+border-style: solid;
+}
+.span{
+   width: 130px;
+   border: 1px;
+   border-color: black;
+border-style: solid;
+}
+.button{
+   width: 20px;
+   height: 20px;
+}
